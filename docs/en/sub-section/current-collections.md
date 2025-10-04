@@ -1,4 +1,157 @@
-# Sub-Section with content 
+# Current Collections
 
-This is an example page for demonstation how sub-sections can be organized. 
-More details about subsections inclusion can be found [here](https://diplodoc.com/docs/en/project/toc)
+Возвращает информация по коллекциям Telegram подарков
+
+### Структура ответа
+
+```json
+{
+    "data": [],
+    "meta": {
+        "limit": 200, 
+        "offset": 0,
+        "count": 0,
+        "api_path": "/current/collections",
+    }
+}
+```
+
+### HTTP запрос
+```
+GET https://api.giftstat.app/current/collections
+```
+
+### Path параметры
+
+#|
+||
+
+Поле
+
+|
+
+Описание
+
+||
+||
+
+id
+
+|
+
+
+||
+||
+
+str_id
+
+|
+
+
+||
+||
+
+collection
+
+|
+
+
+||
+||
+
+collection_slug
+
+|
+
+
+||
+||
+
+star_price
+
+|
+
+
+||
+||
+
+is_limited
+
+|
+
+
+||
+||
+
+is_sold_out
+
+|
+
+
+||
+||
+
+first_sale_date
+
+|
+
+
+||
+||
+
+last_sale_date
+
+|
+
+
+||
+||
+
+total_amount
+
+|
+
+
+||
+||
+
+issued
+
+|
+
+
+||
+||
+
+minted
+
+|
+
+
+||
+||
+
+non_minted
+
+|
+
+
+||
+||
+
+burned
+
+|
+
+
+||
+||
+
+blockchain_address
+
+|
+
+
+||
+|#
+
