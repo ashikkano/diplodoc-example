@@ -2,7 +2,18 @@
 
 Возвращает актуальную информацию по коллекциям Telegram подарков
 
+
+### HTTP запрос
+```
+GET https://api.giftstat.app/current/collections
+```
+
+### Path параметры
+
+
 ### Структура ответа
+
+HTTP код: 200 - OK
 
 ```json
 {
@@ -16,12 +27,6 @@
 }
 ```
 
-### HTTP запрос
-```
-GET https://api.giftstat.app/current/collections
-```
-
-### Path параметры
 
 #|
 ||

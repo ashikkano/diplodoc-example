@@ -1,19 +1,19 @@
 # Current Collections
 
-Возвращает информация по коллекциям Telegram подарков
+Возвращает актуальную информацию по коллекциям Telegram подарков
 
 
-### HTTP запрос
+### HTTP request
 ```
 GET https://api.giftstat.app/current/collections
 ```
 
-### Path параметры
+### Path parameters
 
 
-### Структура ответа
+### Response
 
-HTTP код: 200 - OK
+HTTP code: 200 - OK
 
 ```json
 {
@@ -29,130 +29,83 @@ HTTP код: 200 - OK
 
 
 #|
+|| Field | Description ||
+
+|| id | 
+ **UInt** 
 ||
 
-Поле
-
-|
-
-Описание
-
-||
+|| str_id |
+ **String** 
 ||
 
-id
-
-|
-
-
-||
+|| collection |
+ **String** 
 ||
 
-str_id
-
-|
-
-
-||
+|| collection_slug |
+ **String** 
 ||
 
-collection
+|| star_price |
+ **String** 
+||
+
+|| is_limited
 
 |
 
 
 ||
-||
-
-collection_slug
+|| is_sold_out
 
 |
 
 
 ||
-||
-
-star_price
+|| first_sale_date
 
 |
 
 
 ||
-||
-
-is_limited
+|| last_sale_date
 
 |
 
 
 ||
-||
-
-is_sold_out
+|| total_amount
 
 |
 
 
 ||
-||
-
-first_sale_date
+|| issued
 
 |
 
 
 ||
-||
-
-last_sale_date
+|| minted
 
 |
 
 
 ||
-||
-
-total_amount
+|| non_minted
 
 |
 
 
 ||
-||
-
-issued
+|| burned
 
 |
 
 
 ||
-||
-
-minted
-
-|
-
-
-||
-||
-
-non_minted
-
-|
-
-
-||
-||
-
-burned
-
-|
-
-
-||
-||
-
-blockchain_address
+|| blockchain_address
 
 |
 
