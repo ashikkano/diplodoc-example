@@ -5,7 +5,6 @@ items:
     labeled: true
     href: index.yaml
   - name: О проекте
-    labeled: true
     href: about.md
   # - name: Дополнительная страница
     # href: page.md
@@ -13,6 +12,13 @@ items:
     # href: anotherpage.md
   - name: Giftstat API
     labeled: true
-    include:
-      path: api/toc.yaml
-      mode: link
+  - name: Current
+    items:
+      - name: Collections 
+        href: api/current/collections.md
+      - name: Models 
+        href: api/current/models.md
+  - name: History
+    items:
+      - name: History 
+        href: api/history/base.md
