@@ -8,8 +8,6 @@ items:
     href: about.md
   # - name: Дополнительная страница
     # href: page.md
-  # - name: Другая страница
-    # href: anotherpage.md
   - name: Giftstat API
     labeled: true
   - name: Current
@@ -18,6 +16,11 @@ items:
         href: api/current/collections.md
       - name: Models 
         href: api/current/models.md
+      - name: Thematics 
+        href: api/current/thematics.md
+      - name: Ton Rate 
+        href: api/current/ton-rate.md
+
   # - name: History
   #   items:
   #     - name: History 

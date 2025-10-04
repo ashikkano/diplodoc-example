@@ -1,20 +1,9 @@
-# Collections
+# Ton Rate
 
 Возвращает актуальную информацию по коллекциям Telegram подарков
 
-
-### HTTP запрос
-```
-GET https://api.giftstat.app/current/collections
-```
-
-### Path параметры
-
-
 ### Структура ответа
-
-HTTP код: 200 - OK
-
+<!-- 
 ```json
 {
     "data": [],
@@ -22,11 +11,18 @@ HTTP код: 200 - OK
         "limit": 200, 
         "offset": 0,
         "count": 0,
-        "api_path": "/current/collections",
+        "api_path": "/current/ton-rate",
     }
 }
 ```
+-->
 
+### HTTP запрос
+```
+GET https://api.giftstat.app/current/ton-rate
+```
+<!-- 
+### Path параметры
 
 #|
 ||
@@ -159,4 +155,4 @@ blockchain_address
 
 ||
 |#
-
+ -->
