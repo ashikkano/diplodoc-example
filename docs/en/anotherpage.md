@@ -1,10 +1,10 @@
-# Simple documentation project with YFM
+<!-- # Simple documentation project with YFM -->
 
 
-## Project Structure
-Basic project contains few config files and pages with actual content. Both config files and markdown linked into the following structure:
+<!-- ## Project Structure
+Basic project contains few config files and pages with actual content. Both config files and markdown linked into the following structure: -->
 
-
+<!-- 
 ```
 input-folder
 |-- .yfm (config file for whole project)
@@ -19,6 +19,6 @@ input-folder
     |-- image2.png
 |-- _includes (directory for reusable content)
     |-- faq_shared_block.md
-```
+``` -->
 
 
