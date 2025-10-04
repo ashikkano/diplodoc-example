@@ -18,7 +18,7 @@ items:
         href: api/current/collections.md
       - name: Models 
         href: api/current/models.md
-  - name: History
-    items:
-      - name: History 
-        href: api/history/base.md
+  # - name: History
+  #   items:
+  #     - name: History 
+  #       href: api/history/base.md
