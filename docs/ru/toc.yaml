@@ -1,4 +1,4 @@
-title: Шаблон проекта документации
+title: Giftstat
 href: index.yaml
 items: 
   - name: О проекте
@@ -7,7 +7,7 @@ items:
     # href: page.md
   # - name: Другая страница
     # href: anotherpage.md
-  - name: Подраздел
+  - name: API
     include:
-      path: sub-section/toc.yaml
+      path: api/toc.yaml
       mode: link
