@@ -23,10 +23,14 @@ items:
   - name: Подарки
     labeled: true
     items:
-      - name: Отссылки
+      - name: Отсылки
         items:
           - name: Happy Brownie
             href: gifts/references/HappyBrownie.md
+          - name: Mousse Cake
+            href: gifts/references/MousseCake.md
+
+            
 
   # - name: History
   #   items:
