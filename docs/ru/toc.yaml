@@ -20,6 +20,13 @@ items:
         href: api/current/thematics.md
       - name: Ton Rate 
         href: api/current/ton-rate.md
+  - name: Подарки
+    labeled: true
+    items:
+      - name: Отссылки
+        items:
+          - name: Happy Brownie
+            href: gifts/references/HappyBrownie.md
 
   # - name: History
   #   items:
