@@ -1,7 +1,7 @@
 #|
 || Модель | Описание ||
 ||
-![Still Alive](https://cdn.giftstat.app/models/s/png/150/MousseCake/StillAlive "Still Alive" =150x150)
+![Still Alive](https://storage.yandexcloud.net/giftstat-wiki/MousseCake/StillAlive.png "Still Alive" =150x150)
 |
 Отсылка к знаменитой фразе «The cake is a lie» из игры Portal (2007), где игроки обещано получают торт, но это оказывается обманом
 ||
