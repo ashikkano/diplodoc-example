@@ -22,6 +22,10 @@ items:
         href: api/current/models-stat.md
       - name: Models Floor
         href: api/current/models-floor.md
+      - name: Backdrops 
+        href: api/current/backdrops.md
+      - name: Symbols 
+        href: api/current/symbols.md 
       - name: Thematics 
         href: api/current/thematics.md
       - name: Thematics Lines
