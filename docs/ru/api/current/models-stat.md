@@ -1,10 +1,10 @@
 # Collections
 
-Возвращает модели Telegram подарков
+Возвращает актуальную информацию по моделям Telegram подарков
 
 ### HTTP запрос
 ```
-GET https://api.giftstat.app/current/collections/models
+GET https://api.giftstat.app/current/collections/models/stat
 ```
 
 ### Path параметры
@@ -34,10 +34,10 @@ HTTP код: 200 - OK
 {
     "data": [],
     "meta": {
-        "limit": 10000, 
+        "limit": 200, 
         "offset": 0,
         "count": 0,
-        "api_path": "/current/collections/models",
+        "api_path": "/current/collections/models/stat",
     }
 }
 ```

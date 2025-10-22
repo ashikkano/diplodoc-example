@@ -16,6 +16,10 @@ items:
         href: api/current/collections.md
       - name: Models 
         href: api/current/models.md
+      - name: Models Stat
+        href: api/current/models-stat.md
+      - name: Models Floor
+        href: api/current/models-floor.md
       - name: Thematics 
         href: api/current/thematics.md
       - name: Ton Rate 
