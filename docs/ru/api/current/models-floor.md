@@ -1,10 +1,10 @@
 # Collections
 
-Возвращает модели Telegram подарков
+Возвращает актуальную информацию по флору моделей Telegram подарков
 
 ### HTTP запрос
 ```
-GET https://api.giftstat.app/current/collections/models
+GET https://api.giftstat.app/current/collections/models/floor
 ```
 
 ### Path параметры
@@ -37,7 +37,7 @@ HTTP код: 200 - OK
         "limit": 10000, 
         "offset": 0,
         "count": 0,
-        "api_path": "/current/collections/models",
+        "api_path": "/current/collections/models/floor",
     }
 }
 ```
@@ -51,9 +51,6 @@ HTTP код: 200 - OK
 || collection_slug | ||
 || model | ||
 || model_slug | ||
-|| rarity | ||
-|| model_count | ||
-|| total_amount | ||
-|| model_share | ||
+|| floor_price | ||
 |#
 
