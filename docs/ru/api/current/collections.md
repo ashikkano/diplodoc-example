@@ -13,14 +13,14 @@ GET https://api.giftstat.app/current/collections
 || 
 limit 
 | 
-**UInt64**\
+**UInt**\
 Количество элементов в *data*
 ||
 
 || 
 offset 
 | 
-**UInt64**\
+**UInt**\
 Смещение данных
 ||
 |#
@@ -45,104 +45,20 @@ HTTP код: 200 - OK
 
 #|
 || Поле | Описание ||
-|| id | UInt64 ||
-|| str_id | String ||
-|| collection | String ||
-||
-
-collection_slug
-
-|
-
-
-||
-||
-
-star_price
-
-|
-
-
-||
-||
-
-is_limited
-
-|
-
-
-||
-||
-
-is_sold_out
-
-|
-
-
-||
-||
-
-first_sale_date
-
-|
-
-
-||
-||
-
-last_sale_date
-
-|
-
-
-||
-||
-
-total_amount
-
-|
-
-
-||
-||
-
-issued
-
-|
-
-
-||
-||
-
-minted
-
-|
-
-
-||
-||
-
-non_minted
-
-|
-
-
-||
-||
-
-burned
-
-|
-
-
-||
-||
-
-blockchain_address
-
-|
-
-
-||
+|| id | **UInt** ||
+|| str_id | **String** ||
+|| collection | **String** ||
+|| collection_slug | **String** ||
+|| star_price | **UInt** ||
+|| is_limited | **Bool** ||
+|| is_sold_out | **Bool** ||
+|| first_sale_date | **DateTime** ||
+|| last_sale_date | **DateTime** ||
+|| total_amount | **UInt** ||
+|| issued | **UInt** ||
+|| minted | **UInt** ||
+|| non_minted | **UInt** ||
+|| burned | **UInt** ||
+|| blockchain_address | **String** ||
 |#
 

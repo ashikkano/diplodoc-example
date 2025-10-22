@@ -1,4 +1,4 @@
-# Collections
+# Models
 
 Возвращает модели Telegram подарков
 
@@ -13,14 +13,14 @@ GET https://api.giftstat.app/current/collections/models
 || 
 limit 
 | 
-**UInt64**\
+**UInt**\
 Количество элементов в *data*
 ||
 
 || 
 offset 
 | 
-**UInt64**\
+**UInt**\
 Смещение данных
 ||
 |#
@@ -45,15 +45,12 @@ HTTP код: 200 - OK
 
 #|
 || Поле | Описание ||
-|| id | UInt64 ||
-|| str_id | String ||
-|| collection | String ||
-|| collection_slug | ||
-|| model | ||
-|| model_slug | ||
-|| rarity | ||
-|| model_count | ||
-|| total_amount | ||
-|| model_share | ||
+|| id | **UInt** ||
+|| str_id | **String** ||
+|| collection | **String** ||
+|| collection_slug | **String** ||
+|| model | **String** ||
+|| model_slug | **String** ||
+|| rarity | **UInt** ||
 |#
 
