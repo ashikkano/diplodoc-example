@@ -1,9 +1,14 @@
 # Ton Rate
 
-Возвращает актуальную информацию по коллекциям Telegram подарков
+Возвращает актуальный курс TON в USDT
+
+### HTTP запрос
+```
+GET https://api.giftstat.app/current/ton-rate
+```
 
 ### Структура ответа
-<!-- 
+
 ```json
 {
     "data": [],
@@ -15,144 +20,8 @@
     }
 }
 ```
--->
-
-### HTTP запрос
-```
-GET https://api.giftstat.app/current/ton-rate
-```
-<!-- 
-### Path параметры
 
 #|
-||
-
-Поле
-
-|
-
-Описание
-
-||
-||
-
-id
-
-|
-
-
-||
-||
-
-str_id
-
-|
-
-
-||
-||
-
-collection
-
-|
-
-
-||
-||
-
-collection_slug
-
-|
-
-
-||
-||
-
-star_price
-
-|
-
-
-||
-||
-
-is_limited
-
-|
-
-
-||
-||
-
-is_sold_out
-
-|
-
-
-||
-||
-
-first_sale_date
-
-|
-
-
-||
-||
-
-last_sale_date
-
-|
-
-
-||
-||
-
-total_amount
-
-|
-
-
-||
-||
-
-issued
-
-|
-
-
-||
-||
-
-minted
-
-|
-
-
-||
-||
-
-non_minted
-
-|
-
-
-||
-||
-
-burned
-
-|
-
-
-||
-||
-
-blockchain_address
-
-|
-
-
-||
+|| Поле | Описание ||
+|| usdt_price | **Float** ||
 |#
- -->

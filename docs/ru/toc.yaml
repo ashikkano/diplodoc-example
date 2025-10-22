@@ -14,6 +14,8 @@ items:
     items:
       - name: Collections 
         href: api/current/collections.md
+      - name: Collections Floor
+        href: api/current/collections-floor.md
       - name: Models 
         href: api/current/models.md
       - name: Models Stat
@@ -22,6 +24,8 @@ items:
         href: api/current/models-floor.md
       - name: Thematics 
         href: api/current/thematics.md
+      - name: Thematics Lines
+        href: api/current/thematics-lines.md
       - name: Ton Rate 
         href: api/current/ton-rate.md
   - name: Подарки
