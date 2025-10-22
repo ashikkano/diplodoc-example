@@ -1,15 +1,16 @@
-# Models Floor
+# Thematics Lines
 
-Возвращает актуальную информацию по флору моделей Telegram подарков
+Возвращает актуальный список подборок линий
 
 ### HTTP запрос
 ```
-GET https://api.giftstat.app/current/collections/models/floor
+GET https://api.giftstat.app/current/thematics/lines
 ```
 
 ### Path параметры
 #|
 || Параметр | Описание ||
+
 || 
 limit 
 | 
@@ -37,7 +38,7 @@ HTTP код: 200 - OK
         "limit": 10000, 
         "offset": 0,
         "count": 0,
-        "api_path": "/current/collections/models/floor",
+        "api_path": "/current/thematics/lines",
     }
 }
 ```
@@ -45,12 +46,7 @@ HTTP код: 200 - OK
 
 #|
 || Поле | Описание ||
-|| id | **UInt** ||
-|| str_id | **String** ||
-|| collection | **String** ||
-|| collection_slug | **String** ||
-|| model | **String** ||
-|| model_slug | **String** ||
-|| floor_price | **Float** ||
+|| thematic | **String** ||
+|| line | **Array** ||
 |#
 
