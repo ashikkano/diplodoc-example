@@ -7,7 +7,7 @@
 GET https://api.giftstat.app/current/collections/backdrops
 ```
 
-### Path параметры
+### Query параметры
 #|
 || Параметр | Описание ||
 || 

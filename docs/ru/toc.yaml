@@ -32,6 +32,10 @@ items:
         href: api/current/thematics-lines.md
       - name: Ton Rate 
         href: api/current/ton-rate.md
+  - name: History
+    items:
+      - name: Collections Floor
+        href: api/history/collections-floor.md
   - name: Подарки
     labeled: true
     items:
