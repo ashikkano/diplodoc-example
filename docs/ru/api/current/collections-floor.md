@@ -14,7 +14,7 @@ GET https://api.giftstat.app/current/floor/{marketplace}
 || 
 marketplace 
 | 
-**String**\
+**String**
 - portals (default)
 - tonnel
 - fragment
