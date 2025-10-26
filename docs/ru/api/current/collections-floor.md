@@ -7,7 +7,7 @@
 GET https://api.giftstat.app/current/floor/{marketplace}
 ```
 
-### URL параметры
+### Path параметры
 #|
 || Параметр | Описание ||
 
@@ -22,7 +22,7 @@ marketplace
 ||
 |#
 
-### Path параметры
+### Query параметры
 #|
 || Параметр | Описание ||
 

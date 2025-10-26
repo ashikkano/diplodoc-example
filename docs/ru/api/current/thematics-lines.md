@@ -7,7 +7,7 @@
 GET https://api.giftstat.app/current/thematics/lines
 ```
 
-### Path параметры
+### Query параметры
 #|
 || Параметр | Описание ||
 

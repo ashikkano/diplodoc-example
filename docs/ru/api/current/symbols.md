@@ -7,7 +7,7 @@
 GET https://api.giftstat.app/current/collections/symbols
 ```
 
-### Path параметры
+### Query параметры
 #|
 || Параметр | Описание ||
 || 
