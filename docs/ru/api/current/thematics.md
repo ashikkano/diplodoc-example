@@ -1,5 +1,8 @@
 # Thematics
 
+```json
+API v1.8.2
+```
 Возвращает актуальный список тематических подборок
 
 ### HTTP запрос
@@ -23,5 +26,10 @@ GET https://api.giftstat.app/current/thematics
 
 #|
 || Поле | Описание ||
-|| thematic | **String** ||
+|| 
+thematic 
+|
+**String**
+Название тематики
+||
 |#

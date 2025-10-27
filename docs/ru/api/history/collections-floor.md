@@ -4,7 +4,7 @@
 
 ### HTTP запрос
 ```
-GET https://api.giftstat.app/collections/history/floor
+GET https://api.giftstat.app/history/collections/floor
 ```
 
 ### Query параметры
@@ -13,7 +13,7 @@ GET https://api.giftstat.app/collections/history/floor
 || 
 marketplace
 | 
-**String**\
+**String**
 - portals (default)
 - tonnel
 - getgems
@@ -21,14 +21,14 @@ marketplace
 || 
 scale
 | 
-**String**\
+**String**
 - day (default)
 - hour
 ||
 || 
 days
 | 
-**UInt**
+**UInt**\
 ||
 || 
 limit 
